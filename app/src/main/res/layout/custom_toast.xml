@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_toast_layout"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/margin_medium"
+    android:padding="@dimen/margin_mini">
+
+
+    <TextView
+        android:id="@+id/update_lable"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_medium"
+        android:text="@string/Last_Updated"/>
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/margin_medium"/>
+    <TextView
+        android:layout_below="@+id/update_lable"
+        android:id="@+id/star_lable"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_medium"
+        android:text="@string/Stars"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+    <TextView
+        android:layout_below="@+id/update"
+        android:id="@+id/star"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"/>
+    <TextView
+        android:layout_below="@+id/star_lable"
+        android:id="@+id/fork_lable"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/margin_medium"
+        android:text="@string/Forks"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+    <TextView
+        android:layout_below="@+id/star"
+        android:id="@+id/fork"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+</RelativeLayout>

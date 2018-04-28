@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Take Home</string>
+    <string name="hint_name">Enter a github user id</string>
+    <string name="btn_search">Search</string>
+    <string name="Last_Updated">Last Updated</string>
+    <string name="Stars">Stars</string>
+    <string name="Forks">Forks</string>
+    <string name="noData">Sorry!No Userprofile Found.</string>
+    <string name="please_enter_userid">Please enter userId.</string>
+</resources>
